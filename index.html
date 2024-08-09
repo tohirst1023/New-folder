@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Convertor</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>Currency Convertor</h2>
+            <div>
+                <label>Enter amount</label>
+                <input type="number">
+            </div>
+            <div>
+                <label>From</label>
+                <select class="fromSelect">
+                    <option value="uzs">Uzbekistan</option>
+                    <option value="usd">USA</option>
+                    <option value="rub">Russia</option>
+                    <option value="try">Lira</option>
+                    <option value="qar">Qatar</option>
+                    <option value="sar">Riyal</option>
+                    <option value="kzt">Kazakhstani</option>
+
+                </select>
+            </div>
+            <div>
+                <label>To</label>
+                <select class="toSelect">
+                    <option value="uzs">Uzbekistan</option>
+                    <option value="usd">USA</option>
+                    <option value="rub">Russia</option>
+                    <option value="try">Lira</option>
+                    <option value="qar">Qatar</option>
+                    <option value="sar">Riyal</option>
+                    <option value="kzt">Kazakhstani</option>
+                </select>
+            </div>
+            <button>Convert</button>
+        </form>
+        <div class="result"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
